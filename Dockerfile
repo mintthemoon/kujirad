@@ -1,5 +1,5 @@
 FROM golang:1.21.8-bullseye AS build
-ARG branch=v1.1.0-beta
+ARG branch=v1.1.0
 WORKDIR /build
 RUN git clone \
         -c advice.detachedHead=false \
